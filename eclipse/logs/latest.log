@@ -1,0 +1,27 @@
+[12:21:46] [main/INFO]: Setting user: ForgeDevName
+[12:21:47] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:21:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[12:21:53] [Sound Library Loader/INFO]: Sound engine started
+[12:21:54] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:21:54] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:21:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[12:21:54] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:21:54] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:21:55] [Sound Library Loader/INFO]: Sound engine started
+[12:22:49] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:22:49] [Server thread/INFO]: Generating keypair
+[12:22:50] [Server thread/INFO]: Preparing start region for level 0
+[12:22:50] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:22:51] [Server thread/INFO]: ForgeDevName[local:E:d4cf89e2] logged in with entity id 128 at (39.521992616255304, 4.0, -2083.3041956138395)
+[12:22:51] [Server thread/INFO]: ForgeDevName joined the game
+[12:25:05] [Server thread/INFO]: Saving and pausing game...
+[12:25:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:25:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:25:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:25:08] [Server thread/INFO]: Stopping server
+[12:25:08] [Server thread/INFO]: Saving players
+[12:25:08] [Server thread/INFO]: Saving worlds
+[12:25:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:25:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:25:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:25:09] [Client thread/INFO]: Stopping!

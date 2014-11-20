@@ -1,0 +1,5 @@
+package be.driesstelten.LetsModReboot.client.gui;
+
+public class ModGuiConfig {
+
+}

@@ -1,0 +1,7 @@
+package be.driesstelten.LetsModReboot.item;
+
+import net.minecraft.item.Item;
+
+public class ItemPizza extends Item{
+
+}
