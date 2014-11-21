@@ -4,7 +4,7 @@ import org.apache.logging.log4j.Level;
 import be.driesstelten.LetsModReboot.reference.Reference;
 import cpw.mods.fml.common.FMLLog;
 
-public class logHelper {
+public class LogHelper {
 	
 	public static void log(Level logLevel, Object object) {
 		

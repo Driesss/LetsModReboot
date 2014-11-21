@@ -1,2 +1,16 @@
-# Item localizations
+# Items
 item.letsmodreboot:pizza.name=Pizza of Awesomness
+item.letsmodreboot:flour.name=Flour
+
+# Blocks
+tile.letsmodreboot:tiles.name=Tiles of Awesomness
+tile.letsmodreboot:lamp.name=Lamp of Awesomness
+tile.letsmodreboot:waaw.name=Such Awesome Waaw
+
+# Itemgroup(creativeTabs)
+itemGroup.letsmodreboot=Let's Mod Reboot
+
+# Keys
+keys.letsmodreboot.category=Let's Mod Reboot
+keys.letsmodreboot.herp=Herp
+keys.letsmodreboot.derp=Derp

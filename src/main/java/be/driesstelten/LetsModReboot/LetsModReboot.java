@@ -1,12 +1,18 @@
 package be.driesstelten.LetsModReboot;
 
+import java.lang.reflect.Proxy;
+
 import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.oredict.OreDictionary;
 import sun.rmi.log.LogHandler;
+import be.driesstelten.LetsModReboot.client.handler.KeyInputEventHandler;
 import be.driesstelten.LetsModReboot.handler.ConfigurationHandler;
+import be.driesstelten.LetsModReboot.init.ModBlocks;
 import be.driesstelten.LetsModReboot.init.ModItems;
+import be.driesstelten.LetsModReboot.init.Recepies;
 import be.driesstelten.LetsModReboot.proxy.IProxy;
 import be.driesstelten.LetsModReboot.reference.Reference;
-import be.driesstelten.LetsModReboot.utility.logHelper;
+import be.driesstelten.LetsModReboot.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -29,21 +35,29 @@ public class LetsModReboot {
 		
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+		proxy.registerKeyBindings();
 		ModItems.init();
-		logHelper.info("Pre Initialization Complete!");
+		ModBlocks.init();
+		Recepies.init();
+		LogHelper.info("Pre Initialization Complete!");
 		
 	}
 	
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event) {
 		
-		logHelper.info("Initialization Complete!");
+		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+		LogHelper.info("Initialization Complete!");
 	}
 	
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
 		
-		logHelper.info("Post Initialization Complete!");
+		for (String oreName : OreDictionary.getOreNames()) {
+			LogHelper.info(oreName);
+		}
+		
+		LogHelper.info("Post Initialization Complete!");
 		
 	}
 	
