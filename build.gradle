@@ -22,10 +22,16 @@ group= "be.driesstelten.LetsModReboot" // http://maven.apache.org/guides/mini/gu
 archivesBaseName = "LetsModReboot"
 
 minecraft {
-    version = "1.7.10-10.13.2.1230"
+    version = "1.7.10-10.13.2.1291"
+	if (file('../run').exists()) {
+		runDir = "../run"
+	} else {
+		runDir = "run"
+	}
 }
 
 dependencies {
+	
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
