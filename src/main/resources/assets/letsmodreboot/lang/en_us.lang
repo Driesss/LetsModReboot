@@ -6,6 +6,8 @@ item.letsmodreboot:flour.name=Flour
 tile.letsmodreboot:tiles.name=Tiles of Awesomness
 tile.letsmodreboot:lamp.name=Lamp of Awesomness
 tile.letsmodreboot:waaw.name=Such Awesome Waaw
+tile.letsmodreboot:pizzaOven_active.name=Pizza Oven(Active)
+tile.letsmodreboot:pizzaOven_idle.name=Pizza Oven
 
 # Itemgroup(creativeTabs)
 itemGroup.letsmodreboot=Let's Mod Reboot

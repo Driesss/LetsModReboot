@@ -36,6 +36,7 @@ public class LetsModReboot {
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		proxy.registerKeyBindings();
+		proxy.registerTileEntities();
 		ModItems.init();
 		ModBlocks.init();
 		Recepies.init();
